@@ -1,5 +1,14 @@
-# importing csv file
 import pandas as pd
-df=pd.read_csv("C:\\Users\\ibrah\\Downloads\\archive\\ds_salaries.csv")
-#print(df)
-print(df['company_location'])
+
+data = {
+    "Name": ["Salman", "Sameera"],
+    "Age": [29, 27]
+}
+df = pd.DataFrame(data)
+# print(df)
+# print(df.loc[0])
+print(df.loc[1, 1])
+# print(df["Name"])
+
+
+
