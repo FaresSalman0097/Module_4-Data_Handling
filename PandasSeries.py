@@ -2,6 +2,7 @@ import pandas as pd
 list=['s','m','i','l','e']
 ser=pd.Series(list)
 print(ser)
+# Labels
 print(ser[2])
 
 # Indexing
