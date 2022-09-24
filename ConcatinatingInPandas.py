@@ -12,7 +12,7 @@ data_2 = {
     'Year': [2022, 2021, 2021]
 }
 
-df1 = pd.DataFrame(data_1, index=[0, 1, 2, 3])
+df1 = pd.DataFrame(data_1)
 df2 = pd.DataFrame(data_2, index=[4, 5, 6])
 
 res = pd.concat([df1,df2])
